@@ -1,0 +1,31 @@
+{
+	"name": "tournaments-frontend",
+		"version": "0.0.1",
+		"description": "Frontend view for tournaments and management",
+		"main": "app.js",
+		"scripts": {
+			"test": "echo \"Error: no test specified\" && exit 1",
+			"build": "webpack --config build/webpack.config.js",
+			"dev": "webpack --config build/webpack.config.dev.js"
+		},
+		"repository": {
+			"type": "git",
+			"url": "git+https://github.com/world-of-rockets/Tournaments-Frontend.git"
+		},
+		"author": "Tyler 'Tyzoid' Dence",
+		"license": "MIT",
+		"bugs": {
+			"url": "https://github.com/world-of-rockets/Tournaments-Frontend/issues"
+		},
+		"homepage": "https://github.com/world-of-rockets/Tournaments-Frontend#readme",
+		"devDependencies": {
+			"css-loader": "^2.1.0",
+			"vue": "^2.6.5",
+			"vue-loader": "^15.6.2",
+			"vue-router": "^3.0.2",
+			"vue-style-loader": "^4.1.2",
+			"vue-template-compiler": "^2.6.5",
+			"webpack": "^4.29.3",
+			"webpack-cli": "^3.2.3"
+		}
+}
